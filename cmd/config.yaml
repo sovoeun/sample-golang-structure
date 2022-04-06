@@ -1,0 +1,15 @@
+system:
+  env: debug
+  addr: 6666
+  show-sql: true
+db:
+  host: 127.0.0.1
+  user: postgres
+  password: root
+  db-name: golang
+  port: 5432
+  log:
+    level: info
+    adapter: console
+    path: ./logs/golang.log
+    reverse-days: 7
